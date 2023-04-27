@@ -2,7 +2,6 @@ set_property PACKAGE_PIN Y9 [get_ports clk]
 set_property PACKAGE_PIN P16 [get_ports reset]
 set_property IOSTANDARD LVCMOS18 [get_ports clk]
 set_property IOSTANDARD LVCMOS18 [get_ports reset]
-
 set_property IOSTANDARD LVCMOS18 [get_ports {count[0]}]
 set_property IOSTANDARD LVCMOS18 [get_ports {count[1]}]
 set_property IOSTANDARD LVCMOS18 [get_ports {count[2]}]
