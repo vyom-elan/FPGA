@@ -25,8 +25,8 @@ module four_bit_counter(
     always@(*)
     begin
         case(incr_out)
-        1'b0: mux_out = count - 1;
         1'b1: mux_out = count + 1;
+        1'b0: mux_out = count - 1;
         endcase
      end
      
